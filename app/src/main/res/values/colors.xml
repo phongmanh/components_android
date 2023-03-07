@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009B37</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#333333</color>
+    <color name="gradient_end">#1ECE30</color>
+    <color name="gradient_start">#286E1C</color>
+
+    <!-- ==================text color========================-->
+
+    <color name="text_black">@color/colorBlack</color>
+    <color name="text_white">@color/colorWhite</color>
+    <color name="text_green">@color/colorPrimary</color>
+    <color name="txt_blue">#1D8ECE</color>
+    <color name="text_red">#FF4600</color>
+    <color name="text_grey_1">#828282</color>
+    <color name="text_grey_2">#4F4F4F</color>
+    <color name="text_brown">#615632</color>
+
+    <!-- ==================status color========================-->
+
+    <color name="status_wait_to_accept">#DACD58</color>
+    <color name="status_wait_to_delivery">#B17A26</color>
+    <color name="status_pay_later">#EB2727</color>
+    <color name="status_received">#008009</color>
+    <color name="status_wait_to_pay">#11A9A9</color>
+    <color name="combo_list_card_background">#ECFAF2</color>
+
+    <color name="colorDivider">#E6E6E6</color>
+    <color name="colorBoxDefault">#C4C4C4</color>
+    <color name="colorHintText">#A3A3A3</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
