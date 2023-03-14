@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.giaphat.viewcomponents.DisplayName
 import com.giaphat.viewcomponents.R
+import com.giaphat.viewcomponents.views.DisplayName
 
 
 class GSpinnerAdapter(

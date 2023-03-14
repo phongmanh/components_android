@@ -2,7 +2,7 @@ package com.giaphat.viewcomponents.example
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.giaphat.viewcomponents.DisplayName
+import com.giaphat.viewcomponents.views.DisplayName
 
 class ExampleViewModel : ViewModel() {
 

@@ -9,7 +9,6 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.BindingAdapter
 import androidx.databinding.InverseBindingAdapter
 import androidx.databinding.InverseBindingListener
-import com.giaphat.viewcomponents.DisplayName
 import com.giaphat.viewcomponents.R
 import com.giaphat.viewcomponents.adapters.GSpinnerAdapter
 import com.google.android.material.textfield.MaterialAutoCompleteTextView
@@ -23,6 +22,10 @@ class GSpinner @JvmOverloads constructor(
 
     private var textInputLayout: TextInputLayout? = null
     private var textEditInput: MaterialAutoCompleteTextView? = null
+    private var items = mutableListOf<DisplayName>()
+
+    // Exactly position an item without hint
+    private var selectedItemPosition: Int = -1
 
     var hint: String? = null
 
@@ -43,36 +46,31 @@ class GSpinner @JvmOverloads constructor(
         textEditInput?.hint = hint
     }
 
-    fun setItems(items: List<DisplayName>) {
-        val list = mutableListOf<DisplayName>()
+    fun setItems(listItem: List<DisplayName>) {
         hint?.let {
-            list.add(GSpinnerAdapter.Hint(it))
+            this.items.add(GSpinnerAdapter.Hint(it))
         }
-        list.addAll(items)
-        textEditInput?.setAdapter(GSpinnerAdapter(context, list, this.hint))
+        this.items.addAll(listItem)
+        textEditInput?.setAdapter(GSpinnerAdapter(context, items, this.hint))
     }
 
-    fun setOnItemSelectedListener(onItemSelected: (pos: Int) -> Unit) {
+    fun setOnItemSelectedListener(onItemSelected: () -> Unit) {
 
-        textEditInput?.onItemClickListener =
-            AdapterView.OnItemClickListener { _, _, position, _ ->
-                val idx = if (hint == null) position else position - 1
-                if (idx != -1)
-                    onItemSelected(idx)
-            }
+        textEditInput?.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            selectedItemPosition = if (hint == null) position else position - 1
+            onItemSelected()
+        }
     }
 
     fun setSelection(pos: Int) {
-        textEditInput?.setSelection(pos)
-        /*   textEditInput?.let {
-               val value = it.adapter.getItem(pos) as DisplayName
-               it.setText(value.displayName)
-           }*/
+        pos.takeIf { selectedItemPosition != -1 }?.let {
+            val index = if (hint == null) pos else pos + 1
+            textEditInput?.setText(items[index].displayName, false)
+        }
     }
 
     fun getSelectedItemPosition(): Int {
-        val idx = textEditInput?.listSelection ?: -1
-        return idx - if (hint != null && textEditInput?.adapter?.count!! > 1) 1 else 0
+        return selectedItemPosition
     }
 }
 

@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatSpinner
 import androidx.databinding.BindingAdapter
 import androidx.databinding.InverseBindingAdapter
 import androidx.databinding.InverseBindingListener
-import com.giaphat.viewcomponents.DisplayName
+import com.giaphat.viewcomponents.views.DisplayName
 import com.giaphat.viewcomponents.adapters.GSpinnerAdapter
 
 class GSpinnerTem(context: Context, attrs: AttributeSet? = null) :

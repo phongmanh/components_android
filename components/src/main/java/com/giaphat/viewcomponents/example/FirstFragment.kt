@@ -36,6 +36,12 @@ class FirstFragment : Fragment() {
             println(it)
         }
 
+        viewModel.selectedSpinnerIdx.observe(viewLifecycleOwner) {
+            it?.let {
+                println(it)
+            }
+        }
+
         return binding.root
 
     }
