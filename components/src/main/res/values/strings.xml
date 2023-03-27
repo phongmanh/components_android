@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ViewComponents</string>
+
+    <string name="cancel_label">Huỷ</string>
+    <string name="choice_label">Chọn</string>
+
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="background_colors">
+        <item>@color/background_item_1</item>
+        <item>@color/background_item_2</item>
+        <item>@color/background_item_3</item>
+        <item>@color/background_item_4</item>
+        <item>@color/background_item_5</item>
+        <item>@color/background_item_6</item>
+        <item>@color/background_item_7</item>
+        <item>@color/background_item_8</item>
+    </array>
+</resources>

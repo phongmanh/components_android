@@ -10,6 +10,8 @@
     <color name="gradient_end">#1ECE30</color>
     <color name="gradient_start">#286E1C</color>
 
+    <color name="colorSelectedBackground">#E9FFDE</color>
+
     <!-- ==================text color========================-->
 
     <color name="text_black">@color/colorBlack</color>

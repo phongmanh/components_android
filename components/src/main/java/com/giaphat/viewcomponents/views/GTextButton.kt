@@ -15,5 +15,4 @@ class GTextButton @JvmOverloads constructor(
         context,
         R.style.GTextButtonPrimary
     ), attrs, defStyle
-) {
-}
+)

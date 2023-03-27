@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_item_1">#F5F0E3</color>
+    <color name="background_item_2">#FCEEE8</color>
+    <color name="background_item_3">#F0F3DC</color>
+    <color name="background_item_4">#DAF2F1</color>
+    <color name="background_item_5">#D6ECC5</color>
+    <color name="background_item_6">#D7DEEF</color>
+    <color name="background_item_7">#EEDDF2</color>
+    <color name="background_item_8">#F1DADA</color>
+
+</resources>
