@@ -1,4 +1,4 @@
-package com.liam.component.adapters
+package com.liam.viewcomponents.adapters
 
 import android.annotation.SuppressLint
 import androidx.databinding.ViewDataBinding

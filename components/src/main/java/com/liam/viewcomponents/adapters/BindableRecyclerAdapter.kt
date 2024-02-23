@@ -1,11 +1,10 @@
-package co.kr.gogox.driver.util.adapters
+package com.liam.viewcomponents.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
-import com.liam.component.adapters.BindableViewHolder
 
 abstract class BindableRecyclerAdapter : RecyclerView.Adapter<BindableViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.liam.component.example
+package com.liam.viewcomponents.example
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar

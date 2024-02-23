@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.giaphat.viewcomponents", appContext.packageName)
+        assertEquals("com.liam.viewcomponents", appContext.packageName)
     }
 }

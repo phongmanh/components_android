@@ -1,7 +1,8 @@
-package com.liam.component.adapters
+package com.liam.viewcomponents.adapters
 
 import androidx.databinding.ViewDataBinding
-import co.kr.gogox.driver.util.adapters.BindableRecyclerAdapter
+import com.liam.viewcomponents.adapters.BindableRecyclerAdapter
+import com.liam.viewcomponents.adapters.BindableViewHolder
 
 abstract class SimpleRecyclerItem {
 
