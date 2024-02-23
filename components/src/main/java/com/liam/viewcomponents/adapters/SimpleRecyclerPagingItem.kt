@@ -1,8 +1,6 @@
-package com.giaphat.component.adapters
+package com.liam.component.adapters
 
 import androidx.databinding.ViewDataBinding
-import com.giaphat.component.adapters.BindableRecyclerPagingAdapter
-import com.giaphat.component.adapters.BindableViewHolder
 
 abstract class SimpleRecyclerPagingItem {
     abstract var adapter: BindableRecyclerPagingAdapter

@@ -13,7 +13,7 @@
         tools:targetApi="31">
 
         <activity
-            android:name="com.giaphat.component.example.ExampleActivity"
+            android:name="com.liam.component.example.ExampleActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

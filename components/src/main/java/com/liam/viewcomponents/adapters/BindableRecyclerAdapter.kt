@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
-import com.giaphat.component.adapters.BindableViewHolder
+import com.liam.component.adapters.BindableViewHolder
 
 abstract class BindableRecyclerAdapter : RecyclerView.Adapter<BindableViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents.views
+package com.liam.viewcomponents.views
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -9,8 +9,8 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.BindingAdapter
 import androidx.databinding.InverseBindingAdapter
 import androidx.databinding.InverseBindingListener
-import com.giaphat.viewcomponents.R
-import com.giaphat.viewcomponents.adapters.GSpinnerAdapter
+import com.liam.viewcomponents.R
+import com.liam.viewcomponents.adapters.GSpinnerAdapter
 import com.google.android.material.textfield.MaterialAutoCompleteTextView
 import com.google.android.material.textfield.TextInputLayout
 

@@ -1,4 +1,4 @@
-package com.giaphat.component.example
+package com.liam.component.example
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -8,8 +8,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.giaphat.viewcomponents.R
-import com.giaphat.viewcomponents.databinding.ActivityExampleBinding
+import com.liam.viewcomponents.R
+import com.liam.viewcomponents.databinding.ActivityExampleBinding
 
 class ExampleActivity : AppCompatActivity() {
 

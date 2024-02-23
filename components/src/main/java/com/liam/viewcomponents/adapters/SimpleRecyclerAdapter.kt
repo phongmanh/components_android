@@ -1,4 +1,4 @@
-package com.giaphat.component.adapters
+package com.liam.component.adapters
 
 import androidx.databinding.ViewDataBinding
 import co.kr.gogox.driver.util.adapters.BindableRecyclerAdapter

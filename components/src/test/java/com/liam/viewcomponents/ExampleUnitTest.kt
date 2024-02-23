@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents
+package com.liam.viewcomponents
 
 import org.junit.Test
 

@@ -1,10 +1,10 @@
-package com.giaphat.viewcomponents.views
+package com.liam.viewcomponents.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.ContextThemeWrapper
 import androidx.appcompat.widget.AppCompatRadioButton
-import com.giaphat.viewcomponents.R
+import com.liam.viewcomponents.R
 
 class GRadioButton @JvmOverloads constructor(
     context: Context,

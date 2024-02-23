@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.giaphat.viewcomponents.example.FirstFragment"
+        android:name="com.liam.viewcomponents.example.FirstFragment"
         android:label=""
         tools:layout="@layout/fragment_first">
 

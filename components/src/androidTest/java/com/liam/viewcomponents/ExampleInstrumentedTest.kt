@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents
+package com.liam.viewcomponents
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

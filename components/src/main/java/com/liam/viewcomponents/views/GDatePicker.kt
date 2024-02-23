@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents.views
+package com.liam.viewcomponents.views
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -12,7 +12,7 @@ import androidx.databinding.BindingAdapter
 import androidx.databinding.InverseBindingAdapter
 import androidx.databinding.InverseBindingListener
 import androidx.fragment.app.FragmentActivity
-import com.giaphat.viewcomponents.R
+import com.liam.viewcomponents.R
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.datepicker.MaterialDatePicker.INPUT_MODE_CALENDAR
 import com.google.android.material.textfield.TextInputEditText

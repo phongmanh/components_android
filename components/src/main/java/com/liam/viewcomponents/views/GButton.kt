@@ -1,10 +1,10 @@
-package com.giaphat.viewcomponents.views
+package com.liam.viewcomponents.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.appcompat.widget.AppCompatButton
-import com.giaphat.viewcomponents.R
+import com.liam.viewcomponents.R
 
 class GButton @JvmOverloads constructor(
     context: Context,

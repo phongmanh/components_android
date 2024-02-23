@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents.adapters
+package com.liam.viewcomponents.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.giaphat.viewcomponents.R
-import com.giaphat.viewcomponents.views.DisplayName
+import com.liam.viewcomponents.R
+import com.liam.viewcomponents.views.DisplayName
 
 
 class GSpinnerAdapter(

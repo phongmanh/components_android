@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents.views
+package com.liam.viewcomponents.views
 
 interface DisplayName {
 

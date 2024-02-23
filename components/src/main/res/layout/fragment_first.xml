@@ -5,7 +5,7 @@
 
         <variable
             name="viewModel"
-            type="com.giaphat.viewcomponents.example.ExampleViewModel" />
+            type="com.liam.viewcomponents.example.ExampleViewModel" />
     </data>
 
     <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:padding="16dp">
 
-            <com.giaphat.viewcomponents.views.GButton
+            <com.liam.viewcomponents.views.GButton
                 android:id="@+id/button_first"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.giaphat.viewcomponents.views.GRadioButton
+            <com.liam.viewcomponents.views.GRadioButton
                 android:id="@+id/radiButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -38,7 +38,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/button_first" />
 
-            <com.giaphat.viewcomponents.views.GRadioButtonOutlined
+            <com.liam.viewcomponents.views.GRadioButtonOutlined
                 android:id="@+id/radiButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -50,7 +50,7 @@
                 app:layout_constraintTop_toBottomOf="@id/radiButton1" />
 
 
-            <com.giaphat.viewcomponents.views.GTextButton
+            <com.liam.viewcomponents.views.GTextButton
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/radiButton2" />
 
-            <com.giaphat.viewcomponents.views.GSpinner
+            <com.liam.viewcomponents.views.GSpinner
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                 app:spinnerItemSelected="@={viewModel.selectedSpinnerIdx}"
                 app:text_hint="Select" />
 
-            <com.giaphat.viewcomponents.views.GEditText
+            <com.liam.viewcomponents.views.GEditText
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
                 app:textValue="@={viewModel.text}"
                 app:text_hint="input here" />
 
-            <com.giaphat.viewcomponents.views.GDatePicker
+            <com.liam.viewcomponents.views.GDatePicker
                 android:id="@+id/datePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

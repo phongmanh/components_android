@@ -1,4 +1,4 @@
-package com.giaphat.viewcomponents.example
+package com.liam.viewcomponents.example
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.giaphat.viewcomponents.databinding.FragmentFirstBinding
+import com.liam.viewcomponents.databinding.FragmentFirstBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

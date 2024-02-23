@@ -1,4 +1,4 @@
-package com.giaphat.component.adapters
+package com.liam.component.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

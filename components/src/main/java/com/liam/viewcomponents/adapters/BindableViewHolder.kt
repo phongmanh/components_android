@@ -1,4 +1,4 @@
-package com.giaphat.component.adapters
+package com.liam.component.adapters
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
